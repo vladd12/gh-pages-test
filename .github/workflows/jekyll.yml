@@ -28,6 +28,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    env:
+      PAGES_REPO_NWO: "gh-pages-test"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
