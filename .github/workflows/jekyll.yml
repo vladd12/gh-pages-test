@@ -29,7 +29,7 @@ jobs:
   # Build job
   build:
     env:
-      PAGES_REPO_NWO: "gh-pages-test"
+      PAGES_REPO_NWO: vladd12/gh-pages-test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
