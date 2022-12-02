@@ -1,6 +1,5 @@
 # Main information for blog creation
-author: vladd12
-title: vladd12 Blog
+title: vladd12's Blog
 email: vladd12z32@gmail.com
 description: >- # this means to ignore newlines
   Блог начинающего программиста о программировании 🤡
@@ -30,6 +29,10 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+# Footer settings
+author: vladd12
+copyright: '2022'
+
 # Sharing blog
 share:
   facebook: true
@@ -42,9 +45,9 @@ share:
 # Social nets
 social:
   github: vladd12
-  stackoverflow: ''
-  linkedin: ''
-  rss: feed.xml
+  #stackoverflow: ''
+  #linkedin: ''
+  #rss: feed.xml
 
 # Build settings (theme and plugins)
 theme: jekyll-clean-dark
