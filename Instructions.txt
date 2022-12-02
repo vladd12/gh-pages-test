@@ -3,5 +3,8 @@
 # $> bundle exec jekyll build
 # $> bundle exec jekyll serve
 
-
+Проблемы:
+ - не отображается блок social-media в footer (нижняя часть страницы)   # 
+ - при нажатии на тег в tags.md получаю 404                             # 
+ - отображется "</div></div>" в списке постов в archive.md              # FIXED
 
