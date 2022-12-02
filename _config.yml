@@ -1,32 +1,68 @@
-
+# Main information for blog creation
+author: vladd12
 title: vladd12 Blog
 email: vladd12z32@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-github_username:  vladd12
+description: >- # this means to ignore newlines
+  Блог начинающего программиста о программировании 🤡
 
-repository: vladd12/gh-pages-test
-domain: vladd12.github.io                     # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://vladd12.github.io/gh-pages-test  # the base hostname and protocol for your site, e.g. http://example.com
+# GitHub Pages settings
+repository: vladd12/gh-pages-test             # Need by GitHub Pages for short time
+github_username: vladd12                      # GitHub username
+domain: vladd12.github.io                     # domain for site (need by GitHub Pages)
+url: https://vladd12.github.io/gh-pages-test  # the base hostname and protocol for site
 lsi: false
 safe: true
+
+# Incremental build disabling
 incremental: false
+
+# Highlight settings
 highlighter: rouge
 gist:
   noscript: false
+
+# Markdown settings
+# kramdown usage: 
+# 1) https://prgssr.ru/articles/osobennosti-sintaksisa-kramdown-chast-1.html
+# 2) https://devhints.io/kramdown
+markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+# Sharing blog
+share:
+  facebook: true
+  twitter: true
+  gplus: true
+  linkedin: true
+  pinterest: true
+  email: true
+
+# Social nets
+social:
+  github: vladd12
+  stackoverflow: ''
+  linkedin: ''
+  rss: feed.xml
+
 # Build settings (theme and plugins)
-theme: minimal-mistakes-jekyll
+theme: jekyll-clean-dark
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from processing
+# Google Analytics key
+#google_analytics_key:
+
+# Yandex metrica (https://metrica.yandex.com/)
+#yandex_metrica:
+
+# Disqus comments settings
+disqus: vladd12z32
+comments: false
+
+# Exclude files from processing
 exclude:
   - .sass-cache/
   - .jekyll-cache/

@@ -1,15 +1,14 @@
 source "https://rubygems.org"
 
-# Run this:
-# $> bundle install
-# $> bundle exec jekyll build
-# $> bundle exec jekyll serve
+# Jekyll gem
 gem "jekyll", "~> 3.9.2"
 
-# There are the default themes for Jekyll site
-gem "minimal-mistakes-jekyll", "~> 4.24.0"
-gem "github-pages", "~> 227", group: :jekyll_plugins
+# Theme for Jekyll site
+gem "jekyll-clean-dark", "~> 0.1.3" # https://rubygems.org/gems/jekyll-clean-dark
 gem "webrick"
+
+# GitHub Pages gem for Jekyll site
+gem "github-pages", "~> 227", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
