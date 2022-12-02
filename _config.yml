@@ -67,6 +67,7 @@ comments: false
 
 # Exclude files from processing
 exclude:
+  - vendor/
   - .sass-cache/
   - .jekyll-cache/
   - Gemfile
