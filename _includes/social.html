@@ -1,9 +1,19 @@
 <h6>Follow me</h6>
-<ul class="social-media">
+
+<style type="text/css">
+  a#gihub_link {
+    background-image: url("assets/images/github_icon.svg");
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+  }
+</style>
+
+<ul>
   <!-- GitHub page link -->
   {% if site.social.github %}
     <li>
-      <a title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a id="gihub_link" title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"></a>
     </li>
   {% endif %}
   <!-- Stack Overflow link -->
