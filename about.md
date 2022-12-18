@@ -3,5 +3,5 @@ layout: page
 title: Обо мне
 ---
 
-# Ну штош
-Потом добавлю сюда много всего обо мне, а пока не буду :)
+# About (RU)
+{% if site.description %} {{ site.description }} {% endif %}
