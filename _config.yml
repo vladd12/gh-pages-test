@@ -5,10 +5,10 @@ description: >- # this means to ignore newlines
   Блог начинающего программиста о программировании 🤡
 
 # GitHub Pages settings
-repository: vladd12/gh-pages-test             # Need by GitHub Pages for short time
+repository: vladd12/vladd12.github.io             # Need by GitHub Pages for short time
 github_username: vladd12                      # GitHub username
 domain: vladd12.github.io                     # domain for site (need by GitHub Pages)
-url: https://vladd12.github.io/gh-pages-test  # the base hostname and protocol for site
+url: https://vladd12.github.io/  # the base hostname and protocol for site
 lsi: false
 safe: true
 
