@@ -1,5 +1,4 @@
-<h6>Follow me</h6>
-<ul>
+<ul class="social_block">
   {% if site.social.github %}
   <!-- GitHub page link -->
     <li>
@@ -9,25 +8,26 @@
   {% if site.social.stackoverflow %}
   <!-- Stack Overflow link -->
     <li>
-      <a class="stackoverflow_icon" title="{{ site.social.stackoverflow }} on StackOverflow" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}"></a>
+      <a class="stackoverflow_icon" title="{{ site.social.stackoverflow }} on StackOverflow"
+      href="https://stackoverflow.com/users/{{ site.social.stackoverflow_id }}/{{ site.social.stackoverflow }}"></a>
     </li>
   {% endif %}
   {% if site.social.linkedin %}
   <!-- LinkedIn link -->
     <li>
-      <a title="{{ site.social.linkedin }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a title="{{ site.social.linkedin }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.social.linkedin }}"></a>
     </li>
   {% endif %}
   {% if site.social.instagram %}
   <!-- Instagram link -->
     <li>
-      <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}"></a>
     </li>
   {% endif %}
   {% if site.social.lastfm %}
   <!-- LastFm link -->
     <li>
-      <a title="{{ site.social.lastfm }} on Last.fm" href="https://www.lastfm.com/user/{{ site.social.lastfm }}" target="_blank"><i class="fab fa-lastfm fa-2x"></i></a>
+      <a title="{{ site.social.lastfm }} on Last.fm" href="https://www.lastfm.com/user/{{ site.social.lastfm }}"></a>
     </li>
   {% endif %}
 </ul>

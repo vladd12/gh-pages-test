@@ -1,16 +1,27 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
+# this ensures Jekyll reads the file to be transformed into CSS later.
 ---
 
 // SCSS object for creating icon
 @mixin social_icon($icon_url) {
     background-image: url($icon_url);
     display: block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
 }
 
-//
+// Social icons for GitHub, StackOverflow, etc...
 .github_icon { @include social_icon("../images/github_icon.svg") }
 .stackoverflow_icon { @include social_icon("../images/stackoverflow_icon.svg") }
+
+// Block for social icons
+.social_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex;
+    align-content: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
