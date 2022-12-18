@@ -20,6 +20,10 @@ highlighter: rouge
 gist:
   noscript: false
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Markdown settings
 # kramdown usage: 
 # 1) https://prgssr.ru/articles/osobennosti-sintaksisa-kramdown-chast-1.html
@@ -49,12 +53,6 @@ social:
   stackoverflow_id: 17157999
   #linkedin: ''
   #rss: feed.xml
-
-# Build settings (theme and plugins)
-theme: jekyll-clean-dark
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 sass:
   style: compressed
