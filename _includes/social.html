@@ -1,41 +1,31 @@
 <h6>Follow me</h6>
-
-<style type="text/css">
-  a#gihub_link {
-    background-image: url("assets/images/github_icon.svg");
-    display: block;
-    width: 1.5em;
-    height: 1.5em;
-  }
-</style>
-
 <ul>
-  <!-- GitHub page link -->
   {% if site.social.github %}
+  <!-- GitHub page link -->
     <li>
-      <a id="gihub_link" title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"></a>
+      <a class="github_icon" title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}"></a>
     </li>
   {% endif %}
-  <!-- Stack Overflow link -->
   {% if site.social.stackoverflow %}
+  <!-- Stack Overflow link -->
     <li>
-      <a title="{{ site.social.stackoverflow }} on StackOverflow" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}" target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a>
+      <a class="stackoverflow_icon" title="{{ site.social.stackoverflow }} on StackOverflow" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}"></a>
     </li>
   {% endif %}
-  <!-- LinkedIn link -->
   {% if site.social.linkedin %}
+  <!-- LinkedIn link -->
     <li>
       <a title="{{ site.social.linkedin }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
     </li>
   {% endif %}
-  <!-- Instagram link -->
   {% if site.social.instagram %}
+  <!-- Instagram link -->
     <li>
       <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
     </li>
   {% endif %}
-  <!-- LastFm link -->
   {% if site.social.lastfm %}
+  <!-- LastFm link -->
     <li>
       <a title="{{ site.social.lastfm }} on Last.fm" href="https://www.lastfm.com/user/{{ site.social.lastfm }}" target="_blank"><i class="fab fa-lastfm fa-2x"></i></a>
     </li>

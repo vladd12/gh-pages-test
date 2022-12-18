@@ -45,7 +45,7 @@ share:
 # Social nets
 social:
   github: vladd12
-  #stackoverflow: ''
+  stackoverflow: vladd12
   #linkedin: ''
   #rss: feed.xml
 
@@ -54,6 +54,9 @@ theme: jekyll-clean-dark
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+sass:
+  style: compressed
 
 # Google Analytics key
 #google_analytics_key:
