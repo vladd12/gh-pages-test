@@ -17,10 +17,11 @@ bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
-### TODO List
-* прикрутить систему комментариев: [Staticman](https://staticman.net/) или [Remark42](https://remark42.com/).
-* рассмотреть использование [Hugo](https://gohugo.io/) или [Pelican](https://github.com/getpelican/pelican).
+## TODO List
+* прикрутить систему комментариев: [Staticman](https://staticman.net/) или [Remark42](https://remark42.com/);
+* рассмотреть использование [Hugo](https://gohugo.io/) или [Pelican](https://github.com/getpelican/pelican);
+* сделать раздел с CV ([example](https://github.com/streetturtle/jekyll-cv-crafter)).
 
-### Всякие полезные ссылки
+## Всякие полезные ссылки
 - [Документация по Jekyll](https://jekyllrb.com/docs/).
 - [Продвинутый Jekyll](https://habr.com/ru/post/336266/).
